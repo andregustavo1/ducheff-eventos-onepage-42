@@ -38,18 +38,33 @@ const HeroSection = () => {
 
       {/* Content */}
       <div className="container mx-auto px-6 md:px-16 z-10 text-center">
-        <h1 className="text-4xl md:text-5xl lg:text-6xl text-white font-bold mb-6 opacity-0 animate-slide-up" style={{ animationDelay: "300ms", animationFillMode: "forwards" }}>
+        <h1 
+          className="text-4xl md:text-5xl lg:text-6xl text-white font-bold mb-6" 
+          style={{ 
+            opacity: 0, 
+            animation: "slide-up 0.8s ease-out 300ms forwards"
+          }}
+        >
           Experiências Gastronômicas Memoráveis
         </h1>
         
-        <p className="text-xl md:text-2xl text-ducheff-silver mb-10 max-w-3xl mx-auto opacity-0 animate-slide-up" style={{ animationDelay: "600ms", animationFillMode: "forwards" }}>
+        <p 
+          className="text-xl md:text-2xl text-ducheff-silver mb-10 max-w-3xl mx-auto" 
+          style={{ 
+            opacity: 0, 
+            animation: "slide-up 0.8s ease-out 600ms forwards"
+          }}
+        >
           Do planejamento à execução perfeita de eventos de todos os portes
         </p>
         
         <button
           onClick={handleOpenWhatsApp}
-          className="button-cta bg-white text-ducheff-black hover:bg-ducheff-silver flex items-center gap-2 mx-auto opacity-0 animate-slide-up"
-          style={{ animationDelay: "900ms", animationFillMode: "forwards" }}
+          className="button-cta bg-white text-ducheff-black hover:bg-ducheff-silver flex items-center gap-2 mx-auto"
+          style={{ 
+            opacity: 0, 
+            animation: "slide-up 0.8s ease-out 900ms forwards"
+          }}
         >
           Conheça Nossos Serviços
           <ArrowRight size={16} />
