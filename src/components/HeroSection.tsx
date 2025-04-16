@@ -1,6 +1,6 @@
 
 import { ArrowRight } from "lucide-react";
-import { useEffect, useRef } from "react";
+import { useRef } from "react";
 
 const HeroSection = () => {
   const heroRef = useRef<HTMLDivElement>(null);
@@ -13,12 +13,6 @@ const HeroSection = () => {
     );
   };
 
-  useEffect(() => {
-    if (heroRef.current) {
-      heroRef.current.classList.add("animate-fade-in");
-    }
-  }, []);
-
   return (
     <section
       id="inicio"
@@ -29,42 +23,26 @@ const HeroSection = () => {
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat z-0" 
         style={{ 
-          backgroundImage: "url('https://images.unsplash.com/photo-1414235077428-338989a2e8c0?q=80&w=2070&auto=format&fit=crop')",
-          backgroundPosition: "center 30%"
+          backgroundImage: "url('/lovable-uploads/a635f3ec-9a6b-405b-a73b-014050519fe5.png')",
+          backgroundPosition: "center"
         }}
       >
-        <div className="absolute inset-0 bg-black bg-opacity-50"></div>
+        <div className="absolute inset-0 bg-black bg-opacity-70"></div>
       </div>
 
       {/* Content */}
       <div className="container mx-auto px-6 md:px-16 z-10 text-center">
-        <h1 
-          className="text-4xl md:text-5xl lg:text-6xl text-white font-bold mb-6" 
-          style={{ 
-            opacity: 0, 
-            animation: "slide-up 0.8s ease-out 300ms forwards"
-          }}
-        >
+        <h1 className="text-4xl md:text-5xl lg:text-6xl text-white font-bold mb-6">
           Experiências Gastronômicas Memoráveis
         </h1>
         
-        <p 
-          className="text-xl md:text-2xl text-ducheff-silver mb-10 max-w-3xl mx-auto" 
-          style={{ 
-            opacity: 0, 
-            animation: "slide-up 0.8s ease-out 600ms forwards"
-          }}
-        >
+        <p className="text-xl md:text-2xl text-ducheff-silver mb-10 max-w-3xl mx-auto">
           Do planejamento à execução perfeita de eventos de todos os portes
         </p>
         
         <button
           onClick={handleOpenWhatsApp}
           className="button-cta bg-white text-ducheff-black hover:bg-ducheff-silver flex items-center gap-2 mx-auto"
-          style={{ 
-            opacity: 0, 
-            animation: "slide-up 0.8s ease-out 900ms forwards"
-          }}
         >
           Conheça Nossos Serviços
           <ArrowRight size={16} />

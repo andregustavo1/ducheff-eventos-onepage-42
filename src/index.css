@@ -1,4 +1,3 @@
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -96,40 +95,5 @@
 
   .card-hover {
     @apply transition-all duration-300 hover:shadow-lg hover:-translate-y-1;
-  }
-
-  .animate-on-scroll {
-    @apply opacity-0;
-  }
-  
-  /* Fix: Remove circular dependency by using the animation properties directly */
-  .animate-fade-in {
-    animation: fade-in 0.8s ease-out forwards;
-  }
-  
-  .animate-slide-up {
-    animation: slide-up 0.8s ease-out forwards;
-  }
-}
-
-@keyframes fade-in {
-  0% { 
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  100% { 
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-@keyframes slide-up {
-  0% { 
-    opacity: 0;
-    transform: translateY(40px);
-  }
-  100% { 
-    opacity: 1;
-    transform: translateY(0);
   }
 }
