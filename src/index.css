@@ -63,6 +63,17 @@
 }
 
 @layer components {
+  .embla {
+    @apply relative w-full;
+  }
+  
+  .embla__container {
+    @apply flex touch-pan-y -ml-2;
+  }
+  
+  .embla__slide {
+    @apply pl-2 min-w-0;
+  }
   .glass-header {
     @apply backdrop-blur-md bg-white/80 border-b border-ducheff-gray-light/20 transition-all duration-300;
   }
