@@ -1,3 +1,4 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -101,11 +102,12 @@
     @apply opacity-0;
   }
   
+  /* Fix: Remove circular dependency by using the animation properties directly */
   .animate-fade-in {
-    @apply animate-fade-in;
+    animation: fade-in 0.8s ease-out forwards;
   }
   
   .animate-slide-up {
-    @apply animate-slide-up;
+    animation: slide-up 0.8s ease-out forwards;
   }
 }
