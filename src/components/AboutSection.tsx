@@ -35,9 +35,9 @@ const AboutSection = () => {
           <div className="animate-on-scroll">
             <div className="h-full w-full overflow-hidden rounded-lg shadow-lg">
               <img 
-                src="https://images.unsplash.com/photo-1555244162-803834f70033?q=80&w=2070&auto=format&fit=crop" 
+                src="/img/2.png" 
                 alt="Equipe Ducheff em ação" 
-                className="w-full h-full object-cover"
+                className="w-full h-[750px] object-cover"
               />
             </div>
           </div>

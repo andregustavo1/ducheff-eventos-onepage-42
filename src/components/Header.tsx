@@ -36,7 +36,7 @@ const Header = () => {
       <nav className="container mx-auto py-4 flex items-center justify-between">
         <a href="#hero" className="text-ducheff-black text-2xl font-playfair font-bold">
           Ducheff
-          <span className="text-ducheff-silver font-normal"> Gastronomia</span>
+          <span className="text-ducheff-silver font-normal"></span>
         </a>
 
         <div className="hidden md:flex items-center gap-8">

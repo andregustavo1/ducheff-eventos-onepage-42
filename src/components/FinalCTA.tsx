@@ -15,7 +15,7 @@ const FinalCTA = () => {
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat z-0" 
         style={{ 
-          backgroundImage: "url('https://images.unsplash.com/photo-1531058020387-3be344556be6?q=80&w=2070&auto=format&fit=crop')",
+          backgroundImage: "url('/img/3.png')",
         }}
       >
         <div className="absolute inset-0 bg-black bg-opacity-60"></div>

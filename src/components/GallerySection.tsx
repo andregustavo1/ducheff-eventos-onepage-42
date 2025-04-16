@@ -4,12 +4,22 @@ import useEmblaCarousel from "embla-carousel-react";
 import { ArrowLeft, ArrowRight } from "lucide-react";
 
 const galleryImages = [
-  "https://images.unsplash.com/photo-1519167673419-d28f67c3dbd5?q=80&w=2069&auto=format&fit=crop",
-  "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?q=80&w=2070&auto=format&fit=crop",
-  "https://images.unsplash.com/photo-1514034150297-088ba1585c5b?q=80&w=2070&auto=format&fit=crop",
-  "https://images.unsplash.com/photo-1511173033906-9ad3cc2e21f3?q=80&w=2071&auto=format&fit=crop",
-  "https://images.unsplash.com/photo-1493780474015-ba834fd0ce2f?q=80&w=2042&auto=format&fit=crop",
-  "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?q=80&w=2070&auto=format&fit=crop"
+  "/img/4.png",
+  "/img/5.png",
+  "/img/6.png",
+  "/img/7.png",
+  "/img/8.png",
+  "/img/9.png",
+  "/img/10.png",
+  "/img/11.png",
+  "/img/12.png",
+  "/img/13.png",
+  "/img/14.png",
+  "/img/15.png",
+  "/img/16.png",
+  "/img/17.png",
+  "/img/18.png",
+  "/img/19.png",
 ];
 
 const GallerySection = () => {

@@ -73,7 +73,6 @@ const HowWeWork = () => {
         {/* Desktop Timeline */}
         <div className="hidden md:block relative mt-20 animate-on-scroll">
           {/* Connecting Line */}
-          <div className="absolute top-1/2 left-0 w-full h-0.5 bg-ducheff-silver -translate-y-1/2"></div>
           
           {/* Timeline Steps */}
           <div className="relative flex justify-between">
@@ -122,7 +121,7 @@ const HowWeWork = () => {
                 </div>
                 
                 {/* Content */}
-                <div>
+                <div className="ml-2">
                   <h3 className="text-xl font-semibold mb-2">{step.title}</h3>
                   <p className="text-ducheff-gray-dark">{step.description}</p>
                 </div>
